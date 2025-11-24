@@ -127,4 +127,5 @@
 .hero__image-block img {
     max-width: 100%;
     height: auto;
+    min-width: 500px;
 }
