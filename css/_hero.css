@@ -1,11 +1,6 @@
 .hero {
-    margin: 154px 5%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1285px;
-    margin: 154px auto; 
-    gap: 30px;
-    align-items: center;
+    padding-top: 154px;
+    padding-bottom: 154px;
 }
 
 .hero__text-block {
