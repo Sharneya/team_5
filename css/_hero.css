@@ -1,11 +1,6 @@
 .hero {
-    margin: 154px 5%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1285px;
-    margin: 154px auto; 
-    gap: 30px;
-    align-items: center;
+    padding-top: 154px;
+    padding-bottom: 154px;
 }
 
 .hero__text-block {
@@ -24,7 +19,6 @@
     line-height: 120%;
     letter-spacing: 2px;
     color: #201f1f56;
-
 }
 
 .hero__subtitle::before {
@@ -33,7 +27,6 @@
     height: 2px;
     background-color: #201f1f56;
     margin-right: 10px;
-
 }
 
 .hero__title {
@@ -53,7 +46,6 @@
     margin-top: 16px;
     font-family: Inter;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 28px;
     text-align: justify;
@@ -127,4 +119,5 @@
 .hero__image-block img {
     max-width: 100%;
     height: auto;
+    min-width: 500px;
 }
