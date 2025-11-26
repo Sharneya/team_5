@@ -34,6 +34,16 @@ header a
 	color: #6C5FBC;
 }
 
+.logo a:active
+{
+	color: #6C5FBC;
+}
+
+.logo a:visited
+{
+	color: #6C5FBC;
+}
+
 .nav
 {
 	display: flex;
@@ -53,6 +63,16 @@ header a
 	line-height: 26.74px;
 	letter-spacing: 0%;
 	text-transform: capitalize;
+	color: #606060;
+}
+
+.nav a:active
+{
+	color: #606060;
+}
+
+.nav a:visited
+{
 	color: #606060;
 }
 
@@ -86,7 +106,7 @@ header a
 	padding-right: 26.74px;
 	padding-bottom: 17.83px;
 	padding-left: 26.74px;
-
+	color: #606060;
 }
 
 .button2
@@ -100,6 +120,11 @@ header a
 	padding-right: 26.74px;
 	padding-bottom: 17.83px;
 	padding-left: 26.74px;
-	background: #6C5FBC;	
+	background: #6C5FBC;
+	color: #F9F9F9;
 }
+
+
+
+
 
