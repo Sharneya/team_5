@@ -82,7 +82,16 @@
 	position: absolute;
     right: 15px;
     top: 24px;
+	background: transparent;
 	display: flex;
+}
+
+.dishes__card__heart:active {
+    transform: scale(0.9);
+}
+
+.dishes__card__heart:hover{
+    filter: brightness(180%);
 }
 
 .dishes__card__content {
@@ -157,4 +166,17 @@
     border: none;
     cursor: pointer;
     display: flex;
+}
+
+.card__cart:active {
+    transform: scale(0.9);
+}
+
+.card__cart:hover{
+    filter: brightness(150%);
+}
+
+.dishes__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
