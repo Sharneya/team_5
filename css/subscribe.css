@@ -1,0 +1,20 @@
+.subscribe {
+    width: 1214px;
+    height: 340px;
+    background: #5C4EAE;
+    display: flex;
+    position:relative;
+    margin: 0 auto;
+    margin-bottom: 216px;
+    border-radius: 30px;
+}
+
+.subscribe__maskgroup .get50{
+    padding: 37px 0 0 66px;
+}
+
+.subscribe .subscribe__foodimage{
+    position: absolute;
+    margin-top: 64px;
+    margin-right: 72px;
+}
