@@ -1,7 +1,7 @@
 .contact_us{
     display: flex;
     justify-content: center;
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -16,6 +16,7 @@
 
 .contact_us__rightpart{
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 493px;
     height: 818px;
@@ -55,6 +56,8 @@
     color: #f9f9f9;
 }
 
+/*Right part*/
+
 .contact_us__custsupp{
     display: flex;
     margin-top: 0;
@@ -77,28 +80,110 @@
 }
 
 .contact_us__dataentry{
+    display: flex;
+    flex-direction: column;
+    width: 493px;
     margin-top: 62px;
 }
 
 .contact_us__dataentry__input1 input{
+    position: relative;
     width: 493px;
     height: 79px;
     border: 3px solid #6c5fbc;
     border-radius: 16.89px;
+    padding: 0 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #252525;
+}
+
+.contact_us__dataentry__input1 ::placeholder{
+    position: absolute;
+    width: 96px;
+    height: 26px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
 }
 
 .contact_us__dataentry__input2 input{
+    position: relative;
     margin-top: 26px;
     width: 493px;
     height: 79px;
     border: 3px solid #6c5fbc;
     border-radius: 16.89px;
+    padding: 0 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #252525;
 }
 
-.contact_us__dataentry__input3 input{
+.contact_us__dataentry__input2 ::placeholder{
+    position: absolute;
+    width: 164px;
+    height: 26px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
+}
+
+.contact_us__dataentry__input3 textarea {
+    all:unset;
     margin-top: 52px;
     width: 493px;
     height: 345px;
     border: 3px solid #6c5fbc;
     border-radius: 16.89px;
+    padding: 22.65px 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16.89px;
+    color: #252525;
+}
+
+.contact_us__dataentry__input3 textarea::placeholder {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
+    opacity: 1;
+}
+
+.contact_us__dataentry__sendnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 493px;
+    height: 76px;
+    background-color:#6c5fbc;
+    border-radius: 15.88px;
+    margin-top: 43px;
+}
+
+.contact_us__dataentry__sendnow a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 20.81px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+.contact_us__arrow{
+    position: absolute;
+    left: -110px;
+    bottom: -110px;
+}
+
+.contact_us__dataentry__input1 input:focus::placeholder,
+.contact_us__dataentry__input2 input:focus::placeholder,
+.contact_us__dataentry__input3 textarea:focus::placeholder {
+    opacity: 0;
 }
