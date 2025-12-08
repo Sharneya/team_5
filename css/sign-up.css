@@ -1,0 +1,173 @@
+.sign-up {
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.sign-up__logo {
+	width: 45.94px;
+	height: 42.31px;
+}
+
+.sign-up__box {
+	max-width: 388px;
+	height: 692px;
+	margin-top: 88px;
+	margin-left: 193px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: flex-start;
+}
+
+.upper__title {
+	width: 100%;
+	font-weight: 600;
+	font-size: 35.25px;
+	line-height: 125%;
+	letter-spacing: -4%;
+	display: flex;
+	justify-content: center;
+}
+
+.upper__accounts {
+	height: 63.4px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	gap: 21px;
+	margin-top: 48px;
+}
+
+.upper__accounts--button {
+	width: 183.4px;
+	border-radius: 13.34px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+
+.upper__accounts--icon {
+	height: 30px;
+	position: relative;
+	left: 44%;
+	top: 25%;
+}
+
+.upper__accounts--icon img{
+	width: 26px;
+	position: absolute;
+}
+
+.upper__or {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 3%;
+	text-transform: uppercase;
+	color: #005A6459;
+	margin-left: 47%;
+	margin-top: 33px;
+	margin-bottom: 35px;
+}
+
+.lower__input {
+	width: 100%;
+	height: 74.5px;
+	border-radius: 14.27px;
+	background-color: #F5F5F5;
+	display: flex;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.input__icon {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 28px;
+	top: 34%;
+}
+
+.input__icon--right {
+	right: 0;
+	cursor: pointer;
+}
+
+.lower__input input {
+	all: unset;
+	width: 100%;
+	margin-left: 79px;
+}
+
+.lower__input input::placeholder{
+	font-weight: 600;
+	font-size: 16.68px;
+	line-height: 100%;
+	letter-spacing: 7%;
+	text-transform: uppercase;
+	color: #C2C3CB;
+}
+
+.lower__input:has(input:not(:placeholder-shown)),
+.lower__input:focus-within {
+    background-color: #FFFFFF;
+	border: 1.67px solid #6C5FBC;
+}
+
+.lower__input input:not(:placeholder-shown){
+	font-weight: 500;
+	font-size: 16.68px;
+	line-height: 100%;
+	letter-spacing: 2%;
+	text-transform: capitalize;
+	color: #6C5FBC;
+}
+
+.icon--default {
+	opacity: 1;
+}
+
+.icon--active {
+	opacity: 0;
+}
+
+.lower__input:focus-within .icon--default {
+	opacity: 0;
+}
+
+.lower__input:has(input:not(:placeholder-shown)) .icon--default {
+	opacity: 0;
+}
+
+.lower__input:focus-within .icon--active {
+	opacity: 1;
+}
+
+.lower__input:has(input:not(:placeholder-shown)) .icon--active {
+	opacity: 1;
+}
+
+.sign-up__box--button {
+	padding-top: 25px;
+    text-align: center;
+	width: 100%;
+	height: 74.48710632324219px;
+	top: 734.88px;
+	left: 195px;
+	border-radius: 15.56px;
+	background-color: #6C5FBC;
+	margin-top: 14px;
+	
+	font-weight: 600;
+	font-size: 17.79px;
+	line-height: 100%;
+	letter-spacing: 3%;
+	text-transform: uppercase;
+	color: #F3F5F6;
+	
+	cursor: pointer;
+}
+
+.sign-up__box--button:hover {
+    background-color: #5a4ea3;
+    color: #FFFFFF;
+}
